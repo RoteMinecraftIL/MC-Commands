@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>MC-Commands by RoteMinecraftIL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">MC-Commands</h1>
+      <h2 class="project-tagline">My Minecraft 1cmd creations!</h2>
+      <a href="https://github.com/RoteMinecraftIL/MC-Commands" class="btn">View on GitHub</a>
+      <a href="https://github.com/RoteMinecraftIL/MC-Commands/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/RoteMinecraftIL/MC-Commands/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="mc-commands" class="anchor" href="#mc-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MC-Commands</h1>
+
+<p>My Minecraft 1cmd creations!</p>
+
+<h2>
+<a id="foramt" class="anchor" href="#foramt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Foramt:</h2>
+
+<p>Each 1CMD is stored like that:</p>
+
+<pre><code>&lt;CMD_NAME&gt;
+  |-EXPLAIN.md
+  |-src
+  |  |-1.9.mc
+  |  |-1.10.mc
+  |  |-1.11.mc
+  |-out
+  |  |-1.9.txt
+  |  |-1.10.txt
+  |  |&lt;CMD_NAME&gt;-1_10.nbt
+  |  |-1.11.txt
+  |  |-&lt;CMD_NAME&gt;-1_11.nbt
+  |-LICENSE
+</code></pre>
+
+<h2>
+<a id="tools-i-use" class="anchor" href="#tools-i-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tools I use:</h2>
+
+<ul>
+<li>
+<a href="https://notepad-plus-plus.org">Notepad++</a> with <code>Vim dark blue</code> theme</li>
+<li>A Minecraft UDL file (see section <code>UDL file</code>)</li>
+<li><a href="https://mrgarretto.com/cmdcombiner">MrGarretto's Command Combiner</a></li>
+<li><a href="https://mrgarretto.com/entityconverter">MrGarretto's Entity Converter</a></li>
+<li><a href="http://minecraft.gamepedia.com/">Minecraft Wiki</a></li>
+<li>Minecraft (Get Minecraft <a href="https://minecraft.net/en/">HERE</a>!)</li>
+</ul>
+
+<h2>
+<a id="udl-file" class="anchor" href="#udl-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>UDL File</h2>
+
+<p>For easier reading and coding, I use a NPP UDL file to highlight and autocomplete my code (The UDL file applies on <code>.mc</code> files)</p>
+
+<p><a href="http://pastebin.com/Nyk0ACXi">Get it here!</a></p>
+
+<h3>
+<a id="how-to-install" class="anchor" href="#how-to-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to install</h3>
+
+<ol>
+<li>Go to the link above</li>
+<li>Press "Download" and save to your computer</li>
+<li>rename the file from <code>MCUDL.xml.txt</code> to <code>MCUDL.xml</code>
+</li>
+<li>In NPP, Press "Language"</li>
+<li>Press "Define your language..."</li>
+<li>Press "Import"</li>
+<li>Select your file</li>
+<li>Press "OK"</li>
+<li>Close the window</li>
+<li>Enjoy!</li>
+</ol>
+
+<h2>
+<a id="how-to-install-command" class="anchor" href="#how-to-install-command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to install command</h2>
+
+<p>There are 2 ways to install a command, the <code>/summon</code> way (reccommended) and the <code>structure</code> way (Advanced)</p>
+
+<h3>
+<a id="summon-reccommended" class="anchor" href="#summon-reccommended" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><code>/summon</code> (Reccommended)</h3>
+
+<ol>
+<li>Go to the command .txt for your version (<code>&lt;CMD_NAME&gt;/out/1.&lt;VERSION&gt;.txt</code>)</li>
+<li>Copy the command in the file</li>
+<li>In the game, type <code>/give @p command_block</code> (Make sure you're an operator in creative mode)</li>
+<li>Right-click the command block</li>
+<li>Paste the command into the command block</li>
+<li>In <code>1.8</code>, press "Done" and activate the ommand block using a button/redstone block/whatever, but not from the top</li>
+<li>In <code>1.9+</code>, press "Needs Redstone" to turn it to "Always Active", then press "Done"</li>
+<li>Enjoy the command!</li>
+</ol>
+
+<h3>
+<a id="structure-advanced-players-only" class="anchor" href="#structure-advanced-players-only" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><code>structure</code> (Advanced players only!)</h3>
+
+<ol>
+<li>Download the .nbt file for your version (<code>&lt;CMD_NAME&gt;/out/&lt;CMD_NAME&gt;-1_&lt;VERSION&gt;.nbt</code>)</li>
+<li>Copy the file to your structures folder (<code>%appdata%\.minecraft\saves\&lt;SAVENAME&gt;\structures</code> for windows)</li>
+<li>In game, type <code>/give @p structure_block</code> (Make sure you're an operator in creative mode)</li>
+<li>Right-click the structure block</li>
+<li>Change it to <code>LOAD</code> mode</li>
+<li>type in <code>&lt;CMD_NAME&gt;-1_&lt;VERSION&gt;</code>
+</li>
+<li>Press "LOAD" twice</li>
+<li>Activate the repeating command block with the sign on it.</li>
+<li>Enjoy!</li>
+</ol>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/RoteMinecraftIL/MC-Commands">MC-Commands</a> is maintained by <a href="https://github.com/RoteMinecraftIL">RoteMinecraftIL</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
