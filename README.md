@@ -13,9 +13,9 @@ Each 1CMD is stored like that:
   |-out
   |  |-1.9.txt
   |  |-1.10.txt
-  |  |<CMD_NAME>-1.10.nbt
+  |  |<CMD_NAME>-1_10.nbt
   |  |-1.11.txt
-  |  |-<CMD_NAME>-1.11.nbt
+  |  |-<CMD_NAME>-1_11.nbt
   |-LICENSE
 ```
 
